@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public cl,ass Ejercicio3{
+    public static void main (String[]args){
+
+    //declaracion  e inicializacion de variables
+    int dadi1=0,dado2=0,dado3=0;
+
+    Scannerentrada = new Scanner(System.in);
+    //entrada
+    System.out.println("por favor ingresa el primer nuemro del primer dado: ");
+    dado1=entrada.nextIntg();
+
+    System.out.println("por favor ingresa el primer nuemro del segundo  dado: ");
+    dado2=entrada.nextIntg();
+
+    System.out.println("por favor ingresa el primer nuemro del tercer  dado: ");
+    dado3=entrada.nextIntg();
+
+    //proceso
+    if(dado1==6 && dado2==6 && dado3==6){
+        System.out.println("Exelente");
+        }
+        else if((dado1==6 && dado2==6)||(dado1==6 && dado3==6)||(dado2==6 && dado3==6)){
+            System.out.println("muy bien");
+        }
+        else if((dado1==6) ||(dado2==6)||(dado3==6) ){
+            System.out.println("regular");
+        }
+        else{
+            System.out.println("pesimo");
+        }
